@@ -1,0 +1,1384 @@
+[
+ {
+  "sku": "9512-52…56",
+  "bolim": "Landshaft va lobbi",
+  "yangi": false,
+  "rasm": "9512-52_56.webp",
+  "olchamlar": [
+   {
+    "olcham": "120 × 96 × 61 sm",
+    "narx": 1300000,
+    "kg": 43.0
+   },
+   {
+    "olcham": "90 × 68 × 40 sm",
+    "narx": 910000,
+    "kg": 25.0
+   },
+   {
+    "olcham": "73 × 54 × 33 sm",
+    "narx": 780000,
+    "kg": 20.0
+   },
+   {
+    "olcham": "52 × 45 × 29 sm",
+    "narx": null,
+    "kg": 15.0
+   },
+   {
+    "olcham": "40 × 30 × 22 sm",
+    "narx": null,
+    "kg": 5.0
+   }
+  ]
+ },
+ {
+  "sku": "9512-49…51",
+  "bolim": "Landshaft va lobbi",
+  "yangi": false,
+  "rasm": "9512-49_51.webp",
+  "olchamlar": [
+   {
+    "olcham": "51 × 51 × 116 sm",
+    "narx": 1560000,
+    "kg": 18.0
+   },
+   {
+    "olcham": "53 × 53 × 76 sm",
+    "narx": 1040000,
+    "kg": 20.0
+   },
+   {
+    "olcham": "58 × 58 × 45 sm",
+    "narx": 780000,
+    "kg": 23.0
+   }
+  ]
+ },
+ {
+  "sku": "Y-10",
+  "bolim": "Landshaft va lobbi",
+  "yangi": true,
+  "rasm": "Y-10.webp",
+  "olchamlar": [
+   {
+    "olcham": "34 × 99 × 62 sm",
+    "narx": null,
+    "kg": null
+   }
+  ]
+ },
+ {
+  "sku": "Y-09",
+  "bolim": "Katta vazonlar",
+  "yangi": true,
+  "rasm": "Y-09.webp",
+  "olchamlar": [
+   {
+    "olcham": "30 × 89 × 60 sm",
+    "narx": null,
+    "kg": null
+   }
+  ]
+ },
+ {
+  "sku": "9512-42",
+  "bolim": "Katta vazonlar",
+  "yangi": false,
+  "rasm": "9512-42.webp",
+  "olchamlar": [
+   {
+    "olcham": "42 × 75 sm",
+    "narx": 650000,
+    "kg": 11.0
+   },
+   {
+    "olcham": "35 × 65 sm",
+    "narx": 520000,
+    "kg": 8.0
+   },
+   {
+    "olcham": "26 × 55 sm",
+    "narx": 390000,
+    "kg": 5.0
+   }
+  ]
+ },
+ {
+  "sku": "Y-01",
+  "bolim": "Katta vazonlar",
+  "yangi": true,
+  "rasm": "Y-01.webp",
+  "olchamlar": [
+   {
+    "olcham": "33 × 74 sm",
+    "narx": null,
+    "kg": null
+   }
+  ]
+ },
+ {
+  "sku": "9512-27",
+  "bolim": "Katta vazonlar",
+  "yangi": false,
+  "rasm": "9512-27.webp",
+  "olchamlar": [
+   {
+    "olcham": "46 × 46 × 68 sm",
+    "narx": 780000,
+    "kg": 14.7
+   },
+   {
+    "olcham": "35 × 35 × 55 sm",
+    "narx": 650000,
+    "kg": 6.9
+   },
+   {
+    "olcham": "24 × 24 × 42 sm",
+    "narx": 520000,
+    "kg": 2.5
+   }
+  ]
+ },
+ {
+  "sku": "9512-32",
+  "bolim": "Katta vazonlar",
+  "yangi": false,
+  "rasm": "9512-32.webp",
+  "olchamlar": [
+   {
+    "olcham": "41 × 68 sm",
+    "narx": 650000,
+    "kg": 11.8
+   },
+   {
+    "olcham": "33 × 52 sm",
+    "narx": 520000,
+    "kg": 7.3
+   },
+   {
+    "olcham": "25 × 37 sm",
+    "narx": 390000,
+    "kg": 3.9
+   }
+  ]
+ },
+ {
+  "sku": "Y-03",
+  "bolim": "Katta vazonlar",
+  "yangi": true,
+  "rasm": "Y-03.webp",
+  "olchamlar": [
+   {
+    "olcham": "44 × 66 sm",
+    "narx": null,
+    "kg": null
+   }
+  ]
+ },
+ {
+  "sku": "Y-06",
+  "bolim": "Katta vazonlar",
+  "yangi": true,
+  "rasm": "Y-06.webp",
+  "olchamlar": [
+   {
+    "olcham": "36 × 66 sm",
+    "narx": null,
+    "kg": null
+   }
+  ]
+ },
+ {
+  "sku": "Y-08",
+  "bolim": "Katta vazonlar",
+  "yangi": true,
+  "rasm": "Y-08.webp",
+  "olchamlar": [
+   {
+    "olcham": "45 × 65 sm",
+    "narx": null,
+    "kg": null
+   }
+  ]
+ },
+ {
+  "sku": "9512-68",
+  "bolim": "Katta vazonlar",
+  "yangi": false,
+  "rasm": "9512-68.webp",
+  "olchamlar": [
+   {
+    "olcham": "44 × 44 × 64 sm",
+    "narx": 780000,
+    "kg": 13.3
+   },
+   {
+    "olcham": "36 × 36 × 53 sm",
+    "narx": 650000,
+    "kg": 7.4
+   },
+   {
+    "olcham": "28 × 28 × 40 sm",
+    "narx": 520000,
+    "kg": 3.4
+   }
+  ]
+ },
+ {
+  "sku": "9512-25",
+  "bolim": "Katta vazonlar",
+  "yangi": false,
+  "rasm": "9512-25.webp",
+  "olchamlar": [
+   {
+    "olcham": "48 × 48 × 62 sm",
+    "narx": 650000,
+    "kg": 12.2
+   },
+   {
+    "olcham": "39.5 × 39.5 × 50 sm",
+    "narx": 520000,
+    "kg": 6.7
+   },
+   {
+    "olcham": "31.7 × 31.7 × 37 sm",
+    "narx": 390000,
+    "kg": 3.2
+   }
+  ]
+ },
+ {
+  "sku": "9512-26",
+  "bolim": "Katta vazonlar",
+  "yangi": false,
+  "rasm": "9512-26.webp",
+  "olchamlar": [
+   {
+    "olcham": "45 × 45 × 60 sm",
+    "narx": 780000,
+    "kg": 14.7
+   },
+   {
+    "olcham": "32 × 35 × 50 sm",
+    "narx": 650000,
+    "kg": 6.8
+   },
+   {
+    "olcham": "27 × 27 × 40 sm",
+    "narx": 520000,
+    "kg": 3.5
+   }
+  ]
+ },
+ {
+  "sku": "9512-29",
+  "bolim": "Katta vazonlar",
+  "yangi": false,
+  "rasm": "9512-29.webp",
+  "olchamlar": [
+   {
+    "olcham": "37 × 37 × 60 sm",
+    "narx": 780000,
+    "kg": 11.1
+   },
+   {
+    "olcham": "32 × 32 × 50 sm",
+    "narx": 650000,
+    "kg": 6.9
+   },
+   {
+    "olcham": "27 × 27 × 40 sm",
+    "narx": 520000,
+    "kg": 3.9
+   }
+  ]
+ },
+ {
+  "sku": "9512-57…59",
+  "bolim": "Katta vazonlar",
+  "yangi": false,
+  "rasm": "9512-57_59.webp",
+  "olchamlar": [
+   {
+    "olcham": "35 × 35 × 60 sm",
+    "narx": 780000,
+    "kg": 7.0
+   },
+   {
+    "olcham": "35 × 35 × 45 sm",
+    "narx": 650000,
+    "kg": 6.0
+   },
+   {
+    "olcham": "35 × 35 × 35 sm",
+    "narx": 520000,
+    "kg": 4.0
+   }
+  ]
+ },
+ {
+  "sku": "9512-60…62",
+  "bolim": "Katta vazonlar",
+  "yangi": false,
+  "rasm": "9512-60_62.webp",
+  "olchamlar": [
+   {
+    "olcham": "35 × 35 × 60 sm",
+    "narx": 780000,
+    "kg": 7.0
+   },
+   {
+    "olcham": "35 × 35 × 45 sm",
+    "narx": 650000,
+    "kg": 6.0
+   },
+   {
+    "olcham": "35 × 35 × 35 sm",
+    "narx": 520000,
+    "kg": 4.0
+   }
+  ]
+ },
+ {
+  "sku": "9512-63…65",
+  "bolim": "Katta vazonlar",
+  "yangi": false,
+  "rasm": "9512-63_65.webp",
+  "olchamlar": [
+   {
+    "olcham": "32.5 × 32.5 × 60 sm",
+    "narx": 780000,
+    "kg": 7.0
+   },
+   {
+    "olcham": "32 × 32 × 45 sm",
+    "narx": 650000,
+    "kg": 6.0
+   },
+   {
+    "olcham": "32.5 × 32.5 × 39.5 sm",
+    "narx": 520000,
+    "kg": 4.0
+   }
+  ]
+ },
+ {
+  "sku": "Y-05",
+  "bolim": "Katta vazonlar",
+  "yangi": true,
+  "rasm": "Y-05.webp",
+  "olchamlar": [
+   {
+    "olcham": "35 × 60 sm",
+    "narx": null,
+    "kg": null
+   }
+  ]
+ },
+ {
+  "sku": "Y-07",
+  "bolim": "O‘rta vazonlar",
+  "yangi": true,
+  "rasm": "Y-07.webp",
+  "olchamlar": [
+   {
+    "olcham": "40 × 59 sm",
+    "narx": null,
+    "kg": null
+   }
+  ]
+ },
+ {
+  "sku": "9512-30",
+  "bolim": "O‘rta vazonlar",
+  "yangi": false,
+  "rasm": "9512-30.webp",
+  "olchamlar": [
+   {
+    "olcham": "37 × 37 × 57 sm",
+    "narx": 780000,
+    "kg": 12.5
+   },
+   {
+    "olcham": "26 × 26 × 41.5 sm",
+    "narx": 520000,
+    "kg": 4.5
+   }
+  ]
+ },
+ {
+  "sku": "9512-44",
+  "bolim": "O‘rta vazonlar",
+  "yangi": false,
+  "rasm": "9512-44.webp",
+  "olchamlar": [
+   {
+    "olcham": "40 × 57 sm",
+    "narx": 780000,
+    "kg": 12.8
+   },
+   {
+    "olcham": "30 × 43 sm",
+    "narx": 520000,
+    "kg": 7.2
+   }
+  ]
+ },
+ {
+  "sku": "9512-17",
+  "bolim": "O‘rta vazonlar",
+  "yangi": false,
+  "rasm": "9512-17.webp",
+  "olchamlar": [
+   {
+    "olcham": "48 × 48 × 56 sm",
+    "narx": 780000,
+    "kg": 12.4
+   },
+   {
+    "olcham": "41 × 41 × 46 sm",
+    "narx": 650000,
+    "kg": 7.4
+   },
+   {
+    "olcham": "30.5 × 30.5 × 36 sm",
+    "narx": 520000,
+    "kg": 3.2
+   }
+  ]
+ },
+ {
+  "sku": "9512-16",
+  "bolim": "O‘rta vazonlar",
+  "yangi": false,
+  "rasm": "9512-16.webp",
+  "olchamlar": [
+   {
+    "olcham": "54 × 54 × 40 sm",
+    "narx": 650000,
+    "kg": 11.8
+   },
+   {
+    "olcham": "44.5 × 44.5 × 34.5 sm",
+    "narx": 520000,
+    "kg": 6.9
+   },
+   {
+    "olcham": "36.5 × 36.5 × 27.5 sm",
+    "narx": 390000,
+    "kg": 3.7
+   },
+   {
+    "olcham": "26.6 × 26.6 × 21.6 sm",
+    "narx": 325000,
+    "kg": 1.5
+   }
+  ]
+ },
+ {
+  "sku": "Y-04",
+  "bolim": "O‘rta vazonlar",
+  "yangi": true,
+  "rasm": "Y-04.webp",
+  "olchamlar": [
+   {
+    "olcham": "15 × 54 sm",
+    "narx": null,
+    "kg": null
+   }
+  ]
+ },
+ {
+  "sku": "9512-22",
+  "bolim": "O‘rta vazonlar",
+  "yangi": false,
+  "rasm": "9512-22.webp",
+  "olchamlar": [
+   {
+    "olcham": "48 × 48 × 53 sm",
+    "narx": 780000,
+    "kg": 15.9
+   },
+   {
+    "olcham": "34 × 34 × 41.5 sm",
+    "narx": 650000,
+    "kg": 6.2
+   },
+   {
+    "olcham": "25 × 25 × 35.5 sm",
+    "narx": 520000,
+    "kg": 2.9
+   }
+  ]
+ },
+ {
+  "sku": "Y-02",
+  "bolim": "O‘rta vazonlar",
+  "yangi": true,
+  "rasm": "Y-02.webp",
+  "olchamlar": [
+   {
+    "olcham": "14 × 53 sm",
+    "narx": null,
+    "kg": null
+   }
+  ]
+ },
+ {
+  "sku": "9512-18",
+  "bolim": "O‘rta vazonlar",
+  "yangi": false,
+  "rasm": "9512-18.webp",
+  "olchamlar": [
+   {
+    "olcham": "48.5 × 48.5 × 50.5 sm",
+    "narx": 650000,
+    "kg": 14.1
+   },
+   {
+    "olcham": "38.5 × 38.5 × 38.5 sm",
+    "narx": 520000,
+    "kg": 6.8
+   },
+   {
+    "olcham": "29.5 × 29.5 × 30 sm",
+    "narx": 390000,
+    "kg": 3.1
+   }
+  ]
+ },
+ {
+  "sku": "9512-19",
+  "bolim": "O‘rta vazonlar",
+  "yangi": false,
+  "rasm": "9512-19.webp",
+  "olchamlar": [
+   {
+    "olcham": "41 × 41 × 50 sm",
+    "narx": 780000,
+    "kg": 10.9
+   },
+   {
+    "olcham": "35.5 × 35.5 × 45 sm",
+    "narx": 650000,
+    "kg": 7.3
+   },
+   {
+    "olcham": "30.5 × 30.5 × 40 sm",
+    "narx": 520000,
+    "kg": 4.8
+   }
+  ]
+ },
+ {
+  "sku": "9512-20",
+  "bolim": "O‘rta vazonlar",
+  "yangi": false,
+  "rasm": "9512-20.webp",
+  "olchamlar": [
+   {
+    "olcham": "47 × 47 × 50 sm",
+    "narx": 650000,
+    "kg": 12.9
+   },
+   {
+    "olcham": "34 × 34 × 41 sm",
+    "narx": 520000,
+    "kg": 5.6
+   },
+   {
+    "olcham": "27 × 27 × 41 sm",
+    "narx": 390000,
+    "kg": 3.5
+   }
+  ]
+ },
+ {
+  "sku": "9512-24",
+  "bolim": "O‘rta vazonlar",
+  "yangi": false,
+  "rasm": "9512-24.webp",
+  "olchamlar": [
+   {
+    "olcham": "43.5 × 43.5 × 50 sm",
+    "narx": 650000,
+    "kg": 12.8
+   },
+   {
+    "olcham": "35.5 × 35.5 × 41 sm",
+    "narx": 520000,
+    "kg": 7.0
+   },
+   {
+    "olcham": "27 × 27 × 32 sm",
+    "narx": 390000,
+    "kg": 3.2
+   }
+  ]
+ },
+ {
+  "sku": "9512-28",
+  "bolim": "O‘rta vazonlar",
+  "yangi": false,
+  "rasm": "9512-28.webp",
+  "olchamlar": [
+   {
+    "olcham": "50 × 50 × 38 sm",
+    "narx": 650000,
+    "kg": 13.4
+   },
+   {
+    "olcham": "42 × 42 × 29 sm",
+    "narx": 520000,
+    "kg": 7.2
+   },
+   {
+    "olcham": "29 × 29 × 20 sm",
+    "narx": 390000,
+    "kg": 2.4
+   }
+  ]
+ },
+ {
+  "sku": "9512-35",
+  "bolim": "O‘rta vazonlar",
+  "yangi": false,
+  "rasm": "9512-35.webp",
+  "olchamlar": [
+   {
+    "olcham": "48 × 50 sm",
+    "narx": 780000,
+    "kg": 9.1
+   },
+   {
+    "olcham": "41 × 43 sm",
+    "narx": 650000,
+    "kg": 6.7
+   },
+   {
+    "olcham": "35 × 37 sm",
+    "narx": 520000,
+    "kg": 4.9
+   },
+   {
+    "olcham": "29 × 31 sm",
+    "narx": 390000,
+    "kg": 3.4
+   }
+  ]
+ },
+ {
+  "sku": "9512-41",
+  "bolim": "O‘rta vazonlar",
+  "yangi": false,
+  "rasm": "9512-41.webp",
+  "olchamlar": [
+   {
+    "olcham": "43.5 × 50 sm",
+    "narx": 650000,
+    "kg": 10.7
+   },
+   {
+    "olcham": "33 × 38 sm",
+    "narx": 520000,
+    "kg": 6.2
+   },
+   {
+    "olcham": "23 × 27 sm",
+    "narx": 390000,
+    "kg": 3.1
+   }
+  ]
+ },
+ {
+  "sku": "9512-46",
+  "bolim": "O‘rta vazonlar",
+  "yangi": false,
+  "rasm": "9512-46.webp",
+  "olchamlar": [
+   {
+    "olcham": "40 × 50 sm",
+    "narx": 650000,
+    "kg": 10.0
+   },
+   {
+    "olcham": "30 × 40 sm",
+    "narx": 520000,
+    "kg": 6.0
+   }
+  ]
+ },
+ {
+  "sku": "9512-47",
+  "bolim": "O‘rta vazonlar",
+  "yangi": false,
+  "rasm": "9512-47.webp",
+  "olchamlar": [
+   {
+    "olcham": "40 × 50 sm",
+    "narx": null,
+    "kg": 10.0
+   },
+   {
+    "olcham": "30 × 40 sm",
+    "narx": null,
+    "kg": 6.0
+   }
+  ]
+ },
+ {
+  "sku": "9512-34",
+  "bolim": "O‘rta vazonlar",
+  "yangi": false,
+  "rasm": "9512-34.webp",
+  "olchamlar": [
+   {
+    "olcham": "49.5 × 46 sm",
+    "narx": 780000,
+    "kg": 8.4
+   },
+   {
+    "olcham": "44 × 42 sm",
+    "narx": 650000,
+    "kg": 6.8
+   },
+   {
+    "olcham": "38 × 34.5 sm",
+    "narx": 520000,
+    "kg": 4.8
+   },
+   {
+    "olcham": "29.5 × 28 sm",
+    "narx": 390000,
+    "kg": 3.0
+   },
+   {
+    "olcham": "23.5 × 22.5 sm",
+    "narx": 325000,
+    "kg": 1.9
+   }
+  ]
+ },
+ {
+  "sku": "9512-7",
+  "bolim": "O‘rta vazonlar",
+  "yangi": false,
+  "rasm": "9512-7.webp",
+  "olchamlar": [
+   {
+    "olcham": "49 × 49 sm",
+    "narx": 780000,
+    "kg": 11.0
+   },
+   {
+    "olcham": "40 × 38 sm",
+    "narx": 650000,
+    "kg": 6.9
+   },
+   {
+    "olcham": "31 × 30 sm",
+    "narx": 520000,
+    "kg": 4.2
+   },
+   {
+    "olcham": "26 × 24 sm",
+    "narx": 390000,
+    "kg": 2.8
+   }
+  ]
+ },
+ {
+  "sku": "9512-15",
+  "bolim": "O‘rta vazonlar",
+  "yangi": false,
+  "rasm": "9512-15.webp",
+  "olchamlar": [
+   {
+    "olcham": "46 × 48 sm",
+    "narx": 650000,
+    "kg": 8.7
+   },
+   {
+    "olcham": "39.5 × 40 sm",
+    "narx": 520000,
+    "kg": 6.2
+   },
+   {
+    "olcham": "31 × 33 sm",
+    "narx": 390000,
+    "kg": 4.0
+   }
+  ]
+ },
+ {
+  "sku": "9512-21",
+  "bolim": "O‘rta vazonlar",
+  "yangi": false,
+  "rasm": "9512-21.webp",
+  "olchamlar": [
+   {
+    "olcham": "43 × 43 × 48 sm",
+    "narx": 780000,
+    "kg": 11.4
+   },
+   {
+    "olcham": "35 × 35 × 40 sm",
+    "narx": 520000,
+    "kg": 6.3
+   },
+   {
+    "olcham": "27 × 27 × 35 sm",
+    "narx": 390000,
+    "kg": 3.3
+   }
+  ]
+ },
+ {
+  "sku": "9512-23",
+  "bolim": "O‘rta vazonlar",
+  "yangi": false,
+  "rasm": "9512-23.webp",
+  "olchamlar": [
+   {
+    "olcham": "45 × 45 × 48 sm",
+    "narx": 780000,
+    "kg": 10.5
+   },
+   {
+    "olcham": "40 × 40 × 40 sm",
+    "narx": 650000,
+    "kg": 6.9
+   },
+   {
+    "olcham": "35 × 35 × 35 sm",
+    "narx": 520000,
+    "kg": 4.6
+   }
+  ]
+ },
+ {
+  "sku": "9512-11",
+  "bolim": "O‘rta vazonlar",
+  "yangi": false,
+  "rasm": "9512-11.webp",
+  "olchamlar": [
+   {
+    "olcham": "43 × 47.5 sm",
+    "narx": 780000,
+    "kg": 10.8
+   },
+   {
+    "olcham": "32 × 43 sm",
+    "narx": 650000,
+    "kg": 7.3
+   },
+   {
+    "olcham": "24.5 × 38 sm",
+    "narx": 520000,
+    "kg": 4.9
+   }
+  ]
+ },
+ {
+  "sku": "9512-5",
+  "bolim": "O‘rta vazonlar",
+  "yangi": false,
+  "rasm": "9512-5.webp",
+  "olchamlar": [
+   {
+    "olcham": "40 × 47 sm",
+    "narx": 780000,
+    "kg": 10.3
+   },
+   {
+    "olcham": "32 × 40 sm",
+    "narx": 650000,
+    "kg": 7.0
+   },
+   {
+    "olcham": "24 × 36 sm",
+    "narx": 520000,
+    "kg": 4.7
+   }
+  ]
+ },
+ {
+  "sku": "9512-43",
+  "bolim": "O‘rta vazonlar",
+  "yangi": false,
+  "rasm": "9512-43.webp",
+  "olchamlar": [
+   {
+    "olcham": "46 × 34 sm",
+    "narx": 780000,
+    "kg": 12.6
+   },
+   {
+    "olcham": "35 × 26 sm",
+    "narx": 650000,
+    "kg": 7.4
+   }
+  ]
+ },
+ {
+  "sku": "9512-36",
+  "bolim": "O‘rta vazonlar",
+  "yangi": false,
+  "rasm": "9512-36.webp",
+  "olchamlar": [
+   {
+    "olcham": "41 × 45 sm",
+    "narx": 780000,
+    "kg": 10.9
+   },
+   {
+    "olcham": "32 × 34 sm",
+    "narx": 650000,
+    "kg": 6.4
+   },
+   {
+    "olcham": "24 × 26 sm",
+    "narx": 520000,
+    "kg": 3.7
+   }
+  ]
+ },
+ {
+  "sku": "9512-37",
+  "bolim": "O‘rta vazonlar",
+  "yangi": false,
+  "rasm": "9512-37.webp",
+  "olchamlar": [
+   {
+    "olcham": "42 × 42 × 45 sm",
+    "narx": 780000,
+    "kg": 10.6
+   },
+   {
+    "olcham": "35 × 35 × 39 sm",
+    "narx": 650000,
+    "kg": 6.4
+   },
+   {
+    "olcham": "30 × 30 × 33 sm",
+    "narx": 520000,
+    "kg": 4.0
+   }
+  ]
+ },
+ {
+  "sku": "9512-38",
+  "bolim": "O‘rta vazonlar",
+  "yangi": false,
+  "rasm": "9512-38.webp",
+  "olchamlar": [
+   {
+    "olcham": "37 × 37 × 45 sm",
+    "narx": 780000,
+    "kg": 14.2
+   },
+   {
+    "olcham": "28 × 28 × 35 sm",
+    "narx": 650000,
+    "kg": 6.3
+   },
+   {
+    "olcham": "21 × 21 × 25 sm",
+    "narx": 520000,
+    "kg": 2.5
+   }
+  ]
+ },
+ {
+  "sku": "9512-39",
+  "bolim": "O‘rta vazonlar",
+  "yangi": false,
+  "rasm": "9512-39.webp",
+  "olchamlar": [
+   {
+    "olcham": "45 × 38 sm",
+    "narx": 650000,
+    "kg": 11.2
+   },
+   {
+    "olcham": "31.5 × 27.5 sm",
+    "narx": 520000,
+    "kg": 5.7
+   },
+   {
+    "olcham": "23.5 × 20 sm",
+    "narx": 390000,
+    "kg": 3.1
+   }
+  ]
+ },
+ {
+  "sku": "9512-40",
+  "bolim": "O‘rta vazonlar",
+  "yangi": false,
+  "rasm": "9512-40.webp",
+  "olchamlar": [
+   {
+    "olcham": "45 × 45 × 42 sm",
+    "narx": 650000,
+    "kg": 14.8
+   },
+   {
+    "olcham": "32 × 32 × 30 sm",
+    "narx": 520000,
+    "kg": 5.3
+   },
+   {
+    "olcham": "22.5 × 22.5 × 21 sm",
+    "narx": 390000,
+    "kg": 1.9
+   }
+  ]
+ },
+ {
+  "sku": "9512-45",
+  "bolim": "O‘rta vazonlar",
+  "yangi": false,
+  "rasm": "9512-45.webp",
+  "olchamlar": [
+   {
+    "olcham": "45 × 45 sm",
+    "narx": 650000,
+    "kg": 12.7
+   },
+   {
+    "olcham": "34 × 34 sm",
+    "narx": 520000,
+    "kg": 7.3
+   }
+  ]
+ },
+ {
+  "sku": "9512-66",
+  "bolim": "O‘rta vazonlar",
+  "yangi": false,
+  "rasm": "9512-66.webp",
+  "olchamlar": [
+   {
+    "olcham": "45 × 45 × 45 sm",
+    "narx": 780000,
+    "kg": 14.7
+   },
+   {
+    "olcham": "32.5 × 32.5 × 32.5 sm",
+    "narx": 520000,
+    "kg": 5.5
+   },
+   {
+    "olcham": "22 × 22 × 22 sm",
+    "narx": 390000,
+    "kg": 1.7
+   }
+  ]
+ },
+ {
+  "sku": "9512-33",
+  "bolim": "Kichik vazonlar",
+  "yangi": false,
+  "rasm": "9512-33.webp",
+  "olchamlar": [
+   {
+    "olcham": "44 × 33 sm",
+    "narx": 650000,
+    "kg": 10.2
+   },
+   {
+    "olcham": "36 × 27 sm",
+    "narx": 520000,
+    "kg": 6.9
+   },
+   {
+    "olcham": "30 × 23 sm",
+    "narx": 390000,
+    "kg": 4.9
+   },
+   {
+    "olcham": "24 × 18 sm",
+    "narx": 325000,
+    "kg": 3.0
+   }
+  ]
+ },
+ {
+  "sku": "9512-2",
+  "bolim": "Kichik vazonlar",
+  "yangi": false,
+  "rasm": "9512-2.webp",
+  "olchamlar": [
+   {
+    "olcham": "40 × 40 × 43 sm",
+    "narx": 650000,
+    "kg": 6.2
+   },
+   {
+    "olcham": "35 × 35 × 38 sm",
+    "narx": 520000,
+    "kg": 4.2
+   },
+   {
+    "olcham": "30 × 30 × 33 sm",
+    "narx": 390000,
+    "kg": 2.7
+   }
+  ]
+ },
+ {
+  "sku": "9512-48",
+  "bolim": "Kichik vazonlar",
+  "yangi": false,
+  "rasm": "9512-48.webp",
+  "olchamlar": [
+   {
+    "olcham": "40 × 40 × 43 sm",
+    "narx": 650000,
+    "kg": 9.5
+   },
+   {
+    "olcham": "35 × 35 × 38 sm",
+    "narx": 520000,
+    "kg": 6.4
+   },
+   {
+    "olcham": "30 × 30 × 33 sm",
+    "narx": 390000,
+    "kg": 4.1
+   }
+  ]
+ },
+ {
+  "sku": "9512-13",
+  "bolim": "Kichik vazonlar",
+  "yangi": false,
+  "rasm": "9512-13.webp",
+  "olchamlar": [
+   {
+    "olcham": "42 × 42 sm",
+    "narx": 650000,
+    "kg": 6.7
+   },
+   {
+    "olcham": "36.5 × 36.5 sm",
+    "narx": 585000,
+    "kg": 5.1
+   },
+   {
+    "olcham": "32 × 32 sm",
+    "narx": 520000,
+    "kg": 3.9
+   },
+   {
+    "olcham": "27 × 27 sm",
+    "narx": 455000,
+    "kg": 2.8
+   },
+   {
+    "olcham": "20.5 × 20.5 sm",
+    "narx": 390000,
+    "kg": 1.6
+   }
+  ]
+ },
+ {
+  "sku": "9512-10",
+  "bolim": "Kichik vazonlar",
+  "yangi": false,
+  "rasm": "9512-10.webp",
+  "olchamlar": [
+   {
+    "olcham": "40 × 40 × 39 sm",
+    "narx": 650000,
+    "kg": 6.0
+   },
+   {
+    "olcham": "35 × 35 × 34 sm",
+    "narx": 520000,
+    "kg": 4.0
+   }
+  ]
+ },
+ {
+  "sku": "9512-14",
+  "bolim": "Kichik vazonlar",
+  "yangi": false,
+  "rasm": "9512-14.webp",
+  "olchamlar": [
+   {
+    "olcham": "37 × 40 sm",
+    "narx": 650000,
+    "kg": 9.3
+   },
+   {
+    "olcham": "28 × 37 sm",
+    "narx": 520000,
+    "kg": 6.5
+   },
+   {
+    "olcham": "20 × 33 sm",
+    "narx": 390000,
+    "kg": 4.2
+   }
+  ]
+ },
+ {
+  "sku": "9512-9",
+  "bolim": "Kichik vazonlar",
+  "yangi": false,
+  "rasm": "9512-9.webp",
+  "olchamlar": [
+   {
+    "olcham": "35 × 35 × 38.5 sm",
+    "narx": null,
+    "kg": 5.5
+   },
+   {
+    "olcham": "30 × 30 × 33 sm",
+    "narx": null,
+    "kg": 3.5
+   }
+  ]
+ },
+ {
+  "sku": "9512-4",
+  "bolim": "Kichik vazonlar",
+  "yangi": false,
+  "rasm": "9512-4.webp",
+  "olchamlar": [
+   {
+    "olcham": "38 × 35 sm",
+    "narx": 650000,
+    "kg": 4.6
+   },
+   {
+    "olcham": "32 × 30 sm",
+    "narx": 520000,
+    "kg": 3.3
+   },
+   {
+    "olcham": "25 × 24 sm",
+    "narx": 390000,
+    "kg": 2.1
+   }
+  ]
+ },
+ {
+  "sku": "9512-1",
+  "bolim": "Kichik vazonlar",
+  "yangi": false,
+  "rasm": "9512-1.webp",
+  "olchamlar": [
+   {
+    "olcham": "37 × 37 × 33 sm",
+    "narx": 650000,
+    "kg": 5.4
+   },
+   {
+    "olcham": "30 × 30 × 28 sm",
+    "narx": 520000,
+    "kg": 3.0
+   },
+   {
+    "olcham": "25 × 25 × 21 sm",
+    "narx": 390000,
+    "kg": 1.6
+   }
+  ]
+ },
+ {
+  "sku": "9512-3",
+  "bolim": "Kichik vazonlar",
+  "yangi": false,
+  "rasm": "9512-3.webp",
+  "olchamlar": [
+   {
+    "olcham": "36 × 30 sm",
+    "narx": 650000,
+    "kg": 4.6
+   },
+   {
+    "olcham": "30 × 25 sm",
+    "narx": 520000,
+    "kg": 3.2
+   },
+   {
+    "olcham": "25 × 20 sm",
+    "narx": 390000,
+    "kg": 2.1
+   }
+  ]
+ },
+ {
+  "sku": "9512-12",
+  "bolim": "Kichik vazonlar",
+  "yangi": false,
+  "rasm": "9512-12.webp",
+  "olchamlar": [
+   {
+    "olcham": "36 × 35 sm",
+    "narx": 650000,
+    "kg": 5.0
+   },
+   {
+    "olcham": "28 × 32 sm",
+    "narx": 520000,
+    "kg": 3.6
+   },
+   {
+    "olcham": "21 × 29 sm",
+    "narx": 390000,
+    "kg": 2.4
+   }
+  ]
+ },
+ {
+  "sku": "9512-6",
+  "bolim": "Kichik vazonlar",
+  "yangi": false,
+  "rasm": "9512-6.webp",
+  "olchamlar": [
+   {
+    "olcham": "29 × 30 sm",
+    "narx": 650000,
+    "kg": 5.2
+   },
+   {
+    "olcham": "24 × 27 sm",
+    "narx": 520000,
+    "kg": 3.9
+   },
+   {
+    "olcham": "19 × 25 sm",
+    "narx": 390000,
+    "kg": 2.9
+   }
+  ]
+ },
+ {
+  "sku": "9512-8",
+  "bolim": "Kichik vazonlar",
+  "yangi": false,
+  "rasm": "9512-8.webp",
+  "olchamlar": [
+   {
+    "olcham": "30 × 30 × 30 sm",
+    "narx": 650000,
+    "kg": 6.3
+   },
+   {
+    "olcham": "24 × 24 × 27 sm",
+    "narx": 520000,
+    "kg": 3.6
+   },
+   {
+    "olcham": "19 × 19 × 25 sm",
+    "narx": 390000,
+    "kg": 2.1
+   }
+  ]
+ }
+]
