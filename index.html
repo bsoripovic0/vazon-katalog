@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Dekorativ vazonlar — steklovolokno va sement fakturali gul tuvaklari. Uy, ofis, restoran va hovli uchun. 64 model.">
 <meta name="theme-color" content="#181A18">
+<script src="https://telegram.org/js/telegram-web-app.js"></script>
 <title>Dekorativ vazonlar — katalog</title>
 <style>
 html { background:#E7E7E3; }
@@ -2175,8 +2176,23 @@ function confirmOrder() {
   SAQ = { n: n, t: t };
   try { localStorage.setItem('vazon_mijoz', JSON.stringify(SAQ)); } catch (e) {}
 
-  var no = buyurtmaRaqami(),
-      txt = orderText(no, n, t, r, c);
+  var no = buyurtmaRaqami();
+
+  // Telegram bot ichida ochilgan bo'lsa — buyurtma to'g'ridan botga qaytadi
+  var TWA = window.Telegram && window.Telegram.WebApp;
+  if (TWA && TWA.initData) {
+    TWA.sendData(JSON.stringify({
+      no: no, tel: '+998 ' + t, hudud: r, manzil: c,
+      total: tSum(), kg: +tKg().toFixed(1),
+      items: CART.map(function (x) {
+        return { sku: x.sku, size: x.size, qty: x.qty, price: x.price || 0, kg: x.kg || 0 };
+      })
+    }));
+    CART = []; save();
+    return;  // Web App yopiladi, bot qabul qiladi
+  }
+
+  var txt = orderText(no, n, t, r, c);
 
   var yuborildi = yubor({
     no: no, ism: n, tel: '+998 ' + t, hudud: r, izoh: c, manba: 'Sayt',
