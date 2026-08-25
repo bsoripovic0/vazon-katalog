@@ -2,13 +2,14 @@
 <html lang="uz">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
 <meta name="description" content="Dekorativ vazonlar — steklovolokno va sement fakturali gul tuvaklari. Uy, ofis, restoran va hovli uchun. 64 model.">
 <meta name="theme-color" content="#181A18">
 <script src="https://telegram.org/js/telegram-web-app.js"></script>
 <title>Dekorativ vazonlar — katalog</title>
 <style>
-html { background:#E7E7E3; }
+html { background:#E7E7E3; overscroll-behavior:none; -webkit-text-size-adjust:100%; touch-action:pan-y; }
+body { overscroll-behavior:none; }
 @media (prefers-color-scheme:dark) { html { background:#111311; } }
 :root {
   --ground:#E7E7E3; --surface:#FCFCFB; --ink:#181A18; --muted:#6C726D;
@@ -2359,6 +2360,24 @@ document.querySelectorAll('.qa .q').forEach(function (b) {
     });
   });
   document.querySelectorAll('.sh').forEach(function (h) { io.observe(h); });
+})();
+</script>
+<script>
+(function(){
+  var W = window.Telegram && window.Telegram.WebApp;
+  if (!W) return;
+  W.ready();
+  try { W.expand(); } catch(e){}
+  try { W.disableVerticalSwipes && W.disableVerticalSwipes(); } catch(e){}
+  try { W.setHeaderColor && W.setHeaderColor('#111311'); } catch(e){}
+  document.documentElement.classList.add('twa');
+  // pinch-zoom (ikki barmoq) va double-tap zoom'ni bloklash
+  document.addEventListener('gesturestart', function(e){ e.preventDefault(); }, {passive:false});
+  document.addEventListener('dblclick', function(e){ e.preventDefault(); }, {passive:false});
+  var lt=0;
+  document.addEventListener('touchend', function(e){
+    var n=Date.now(); if(n-lt<350){ e.preventDefault(); } lt=n;
+  }, {passive:false});
 })();
 </script>
 </body>
