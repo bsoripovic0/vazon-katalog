@@ -2099,14 +2099,14 @@ function paintForm() {
       'autocomplete="tel-national" maxlength="12" enterkeyhint="done" ' +
       'value="' + esc(SAQ.t || '') + '"></div></div>' +
 
-    '<div class="fld"><label class="fl" for="fR">' + ICO.pin +
+    ((window.Telegram && window.Telegram.WebApp && window.Telegram.WebApp.initData) ? '' :
+      '<div class="fld"><label class="fl" for="fR">' + ICO.pin +
       '<span>Hudud</span><em>ixtiyoriy</em></label>' +
       '<select id="fR">' + VILOYAT.map(function (v) {
         return '<option>' + v + '</option>'; }).join('') + '</select></div>' +
-
-    '<div class="fld"><label class="fl" for="fC">' + ICO.msg +
+      '<div class="fld"><label class="fl" for="fC">' + ICO.msg +
       '<span>Manzil va izoh</span><em>ixtiyoriy</em></label>' +
-      '<textarea id="fC" rows="2" placeholder="Ko‘cha, uy — yoki qo‘shimcha izoh"></textarea></div>' +
+      '<textarea id="fC" rows="2" placeholder="Ko‘cha, uy — yoki qo‘shimcha izoh"></textarea></div>') +
 
     '<p class="err" id="fErr"></p>' + summary() +
     '<button class="go" id="ok" type="button">Tasdiqlash' + ICO.arrow + '</button>' +
@@ -2163,8 +2163,9 @@ try { SAQ = JSON.parse(localStorage.getItem('vazon_mijoz') || '{}'); } catch (e)
 function confirmOrder() {
   var n = document.getElementById('fN').value.trim(),
       t = document.getElementById('fT').value.trim(),
-      r = document.getElementById('fR').value,
-      c = document.getElementById('fC').value.trim(),
+      rEl = document.getElementById('fR'), cEl = document.getElementById('fC'),
+      r = rEl ? rEl.value : '',
+      c = cEl ? cEl.value.trim() : '',
       err = document.getElementById('fErr');
   if (n.length < 2) {
     err.textContent = 'Ismingizni yozing.'; document.getElementById('fN').focus(); return;
