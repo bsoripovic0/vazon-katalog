@@ -2372,12 +2372,8 @@ document.querySelectorAll('.qa .q').forEach(function (b) {
   try { W.setHeaderColor && W.setHeaderColor('#111311'); } catch(e){}
   document.documentElement.classList.add('twa');
   // pinch-zoom (ikki barmoq) va double-tap zoom'ni bloklash
+  // pinch-zoom faqat (ikki barmoq). Tugma bosishga TEGMAYDI.
   document.addEventListener('gesturestart', function(e){ e.preventDefault(); }, {passive:false});
-  document.addEventListener('dblclick', function(e){ e.preventDefault(); }, {passive:false});
-  var lt=0;
-  document.addEventListener('touchend', function(e){
-    var n=Date.now(); if(n-lt<350){ e.preventDefault(); } lt=n;
-  }, {passive:false});
 })();
 </script>
 </body>
