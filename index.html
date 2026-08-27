@@ -2099,7 +2099,7 @@ function paintForm() {
       'autocomplete="tel-national" maxlength="12" enterkeyhint="done" ' +
       'value="' + esc(SAQ.t || '') + '"></div></div>' +
 
-    ((window.Telegram && window.Telegram.WebApp && window.Telegram.WebApp.initData) ? '' :
+    ((window.Telegram && window.Telegram.WebApp && window.Telegram.WebApp.platform && window.Telegram.WebApp.platform !== 'unknown') ? '' :
       '<div class="fld"><label class="fl" for="fR">' + ICO.pin +
       '<span>Hudud</span><em>ixtiyoriy</em></label>' +
       '<select id="fR">' + VILOYAT.map(function (v) {
@@ -2182,7 +2182,7 @@ function confirmOrder() {
 
   // Telegram bot ichida ochilgan bo'lsa — buyurtma to'g'ridan botga qaytadi
   var TWA = window.Telegram && window.Telegram.WebApp;
-  if (TWA && TWA.initData) {
+  if (TWA && TWA.platform && TWA.platform !== 'unknown') {
     TWA.sendData(JSON.stringify({
       no: no, tel: '+998 ' + t, hudud: r, manzil: c,
       total: tSum(), kg: +tKg().toFixed(1),
