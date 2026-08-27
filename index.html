@@ -2093,7 +2093,7 @@ function paintForm() {
       '<input id="fN" type="text" placeholder="Ism familiya" autocomplete="name" ' +
       'enterkeyhint="next" value="' + esc(SAQ.n || '') + '"></div>' +
 
-    '<div class="fld"><label class="fl" for="fT">' + FLAG + '<span>Telefon raqam</span></label>' +
+    '<div class="fld"><label class="fl" for="fT">' + FLAG + '<span>Telefon raqam</span>' + ((window.Telegram && window.Telegram.WebApp && window.Telegram.WebApp.platform !== 'unknown') ? '<em>ixtiyoriy</em>' : '') + '</label>' +
       '<div class="phone"><span class="pre">+998</span>' +
       '<input id="fT" type="tel" inputmode="numeric" placeholder="90 123 45 67" ' +
       'autocomplete="tel-national" maxlength="12" enterkeyhint="done" ' +
@@ -2170,7 +2170,8 @@ function confirmOrder() {
   if (n.length < 2) {
     err.textContent = 'Ismingizni yozing.'; document.getElementById('fN').focus(); return;
   }
-  if (t.replace(/\D/g, '').length !== 9) {
+  var TWAon = window.Telegram && window.Telegram.WebApp && window.Telegram.WebApp.platform && window.Telegram.WebApp.platform !== 'unknown';
+  if (!TWAon && t.replace(/\D/g, '').length !== 9) {
     err.textContent = 'Telefon raqam 9 ta raqamdan iborat bo‘lishi kerak: 90 123 45 67';
     document.getElementById('fT').focus(); return;
   }
