@@ -2247,7 +2247,17 @@ function shutDrawer() { drawer.classList.remove('on'); veil.classList.remove('on
 fab.onclick = openDrawer;
 veil.onclick = shutDrawer;
 document.getElementById('close').onclick = shutDrawer;
-document.getElementById('toForm').onclick = function () { if (CART.length) { view = 'form'; paint(); } };
+document.getElementById('toForm').onclick = function () {
+  if (!CART.length) return;
+  var TWAon = window.Telegram && window.Telegram.WebApp && window.Telegram.WebApp.platform && window.Telegram.WebApp.platform !== 'unknown';
+  if (!TWAon) {
+    // Brauzer (Google): buyurtma faqat botда beriladi -> botga yo'naltiramiz (copy YO'Q)
+    try { localStorage.setItem('vazon_savat', JSON.stringify(CART)); } catch (e) {}
+    window.location.href = 'https://t.me/tuvak_uzz_bot';
+    return;
+  }
+  view = 'form'; paint();
+};
 
 /* ---------- rasmni kattalashtirish ---------- */
 var lb = document.getElementById('lb'), lbImg = lb.querySelector('img');
