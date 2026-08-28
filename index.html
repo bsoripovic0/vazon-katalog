@@ -2402,5 +2402,36 @@ document.querySelectorAll('.qa .q').forEach(function (b) {
   document.addEventListener('gesturestart', function(e){ e.preventDefault(); }, {passive:false});
 })();
 </script>
+<script>
+/* NARX-SYNC — CRM'da o'zgartirilgan narxlarni saytga qo'llaydi */
+(function(){
+  try{
+    fetch('https://tuvak-bot.vazon-sayt.workers.dev/narx',{cache:'no-store'})
+    .then(function(r){return r.json()})
+    .then(function(N){
+      if(!N||typeof N!=='object')return;
+      var som=function(n){return String(Math.round(n)).replace(/\B(?=(\d{3})+(?!\d))/g,' ')};
+      var cards=document.querySelectorAll('[data-sku]');
+      for(var i=0;i<cards.length;i++){
+        var card=cards[i], sku=card.getAttribute('data-sku');
+        var rows=N[sku]; if(!rows||!rows.length)continue;
+        var chips=card.querySelectorAll('.chip[data-s]'), min=null;
+        for(var j=0;j<rows.length;j++){
+          var size=rows[j][0], price=rows[j][1], kg=rows[j][2];
+          for(var c=0;c<chips.length;c++){
+            if(chips[c].getAttribute('data-s')===size){
+              if(price){chips[c].setAttribute('data-price',String(price));chips[c].setAttribute('data-taxmin','0')}
+              if(kg)chips[c].setAttribute('data-kg',String(kg));
+            }
+          }
+          if(price&&(min===null||price<min))min=price;
+        }
+        var p=card.querySelector('.price');
+        if(p&&min!==null){var t=som(min)+' <span>so\u2018m dan</span>';p.setAttribute('data-base',t);p.innerHTML=t}
+      }
+    }).catch(function(){});
+  }catch(e){}
+})();
+</script>
 </body>
 </html>
