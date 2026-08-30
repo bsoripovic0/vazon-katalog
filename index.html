@@ -489,7 +489,7 @@ a.go { text-decoration:none; }
   font:600 15px/1 ui-monospace,Menlo,monospace; color:var(--muted); flex:none;
 }
 .phone input { border-radius:0 10px 10px 0; font-family:ui-monospace,Menlo,monospace;
-  letter-spacing:.04em; }
+  letter-spacing:.08em; caret-color:var(--accent); }
 
 /* yakun */
 .sum { background:var(--surface); border:1px solid var(--edge); border-radius:12px;
@@ -2136,12 +2136,40 @@ function paintForm() {
       el === nom ? tel.focus() : confirmOrder();
     });
   });
-  tel.addEventListener('input', function () {
-    var d = tel.value.replace(/\D/g, '').replace(/^998/, '').slice(0, 9), o = d.slice(0, 2);
+  function telFmt(d) {
+    var o = d.slice(0, 2);
     if (d.length > 2) o += ' ' + d.slice(2, 5);
     if (d.length > 5) o += ' ' + d.slice(5, 7);
     if (d.length > 7) o += ' ' + d.slice(7, 9);
-    tel.value = o;
+    return o;
+  }
+  /* Backspace bo'shliq ustida bo'lsa — undan oldingi RAQAMni o'chiramiz */
+  tel.addEventListener('keydown', function (e) {
+    if (e.key !== 'Backspace') return;
+    var st = tel.selectionStart, en = tel.selectionEnd;
+    if (st !== en || st === 0) return;
+    if (tel.value[st - 1] === ' ') {
+      e.preventDefault();
+      var v = tel.value.slice(0, st - 2) + tel.value.slice(st);
+      var dg = v.replace(/\D/g, '').slice(0, 9);
+      var before = tel.value.slice(0, st - 2).replace(/\D/g, '').length;
+      tel.value = telFmt(dg);
+      telCursor(before);
+    }
+  });
+  /* kursorni "shuncha raqamdan keyin" joyiga qo'yish */
+  function telCursor(nDigits) {
+    var v = tel.value, pos = 0, cnt = 0;
+    while (pos < v.length && cnt < nDigits) { if (v.charCodeAt(pos) > 47 && v.charCodeAt(pos) < 58) cnt++; pos++; }
+    while (pos < v.length && v[pos] === ' ') pos++;
+    try { tel.setSelectionRange(pos, pos); } catch (e) {}
+  }
+  tel.addEventListener('input', function () {
+    var st = tel.selectionStart;
+    var before = tel.value.slice(0, st).replace(/\D/g, '').replace(/^998/, '').length;
+    var d = tel.value.replace(/\D/g, '').replace(/^998/, '').slice(0, 9);
+    tel.value = telFmt(d);
+    telCursor(before);
   });
   document.getElementById('back').onclick = function () { view = 'cart'; paint(); };
   document.getElementById('ok').onclick = confirmOrder;
