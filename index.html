@@ -2461,5 +2461,51 @@ document.querySelectorAll('.qa .q').forEach(function (b) {
   }catch(e){}
 })();
 </script>
+<script>
+/* YANGI-TOVAR — CRM'da qo'shilgan mahsulotlarni saytga chiqaradi */
+(function(){
+  try{
+    fetch('https://tuvak-bot.vazon-sayt.workers.dev/yangi',{cache:'no-store'})
+    .then(function(r){return r.json()})
+    .then(function(D){
+      var list=(D&&D.mahsulot)||[]; if(!list.length)return;
+      var namuna=document.querySelector('article.card[data-sku]'); if(!namuna)return;
+      var grid=namuna.parentNode;
+      var som=function(n){return String(Math.round(n)).replace(/\B(?=(\d{3})+(?!\d))/g,' ')};
+      for(var i=0;i<list.length;i++){
+        var p=list[i];
+        if(document.querySelector('article.card[data-sku="'+p.s.replace(/"/g,'')+'"]'))continue;
+        var el=namuna.cloneNode(true);
+        el.setAttribute('data-sku',p.s);
+        el.id='crm'+i;
+        var h3=el.querySelector('.top h3'); if(h3)h3.textContent=p.s;
+        var img=el.querySelector('img');
+        if(img&&p.i){img.src=p.i;img.srcset='';img.alt=p.s+' vazon';img.removeAttribute('loading')}
+        var tag=el.querySelector('.tag'); if(tag)tag.textContent=(p.o||[]).length+' o\u2018lcham';
+        var chips=el.querySelector('.chips');
+        if(chips){
+          chips.innerHTML='';
+          var min=null;
+          for(var j=0;j<(p.o||[]).length;j++){
+            var o=p.o[j], b=document.createElement('button');
+            b.type='button'; b.className='chip';
+            b.setAttribute('data-s',o[0]); b.setAttribute('data-desc',o[0]);
+            b.setAttribute('data-price',o[1]||''); b.setAttribute('data-kg',o[2]||0);
+            b.setAttribute('data-taxmin',o[1]?'0':'1');
+            b.textContent=String(o[0]).replace(/\s*sm$/,'');
+            chips.appendChild(b);
+            if(o[1]&&(min===null||o[1]<min))min=o[1];
+          }
+          var pr=el.querySelector('.price');
+          if(pr){var t=min!==null?som(min)+' <span>so\u2018m dan</span>':'Narx kelishiladi';
+            pr.setAttribute('data-base',t); pr.innerHTML=t}
+          var pk=el.querySelector('.pick'); if(pk)pk.textContent=pk.getAttribute('data-empty')||'O\u2018lchamni tanlang';
+        }
+        grid.insertBefore(el,grid.firstChild);
+      }
+    }).catch(function(){});
+  }catch(e){}
+})();
+</script>
 </body>
 </html>
